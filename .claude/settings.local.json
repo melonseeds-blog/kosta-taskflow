@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\taskflow\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\taskflow\" -Force | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\taskflow\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\taskflow\" -Force -File | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\taskflow\" -Force -Directory | ForEach-Object { $_.Name })",
+      "Bash(where claude *)",
+      "PowerShell(winget install *)",
+      "PowerShell(npm list *)",
+      "PowerShell(claude *)",
+      "PowerShell(npm view *)"
+    ]
+  }
+}
