@@ -1,0 +1,20 @@
+# 환경 변수
+.env
+.env.*
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# SQLite DB
+*.db
+*.sqlite
+*.sqlite3
